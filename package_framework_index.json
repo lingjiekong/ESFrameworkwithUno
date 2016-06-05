@@ -1,0 +1,43 @@
+{
+  "packages": [
+    {
+      "name": "esframework",
+      "maintainer": "J Edward Carryer",
+      "websiteURL": "http://spdl.stanford.edu/",
+      "email": "carryer@stanford.edu",
+      "help": {
+        "online": "https://canvas.stanford.edu/courses/26411/discussion_topics"
+      },
+      "platforms": [
+        {
+          "name": "Arduino With Framework",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://canvas.stanford.edu/courses/26411/discussion_topics"
+          },
+          "url": "http://web.stanford.edu/~carryer/Framework.zip",
+          "archiveFileName": "Framework.zip",
+          "size": "190479",
+          "boards": [
+            {"name": "Uno with Framework"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}

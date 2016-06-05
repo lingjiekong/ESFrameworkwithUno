@@ -1,0 +1,36 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+##############################################################
+
+uno3.name=Uno with Framework
+
+uno3.vid.0=0x2341
+uno3.pid.0=0x0043
+uno3.vid.1=0x2341
+uno3.pid.1=0x0001
+uno3.vid.2=0x2A03
+uno3.pid.2=0x0043
+uno3.vid.3=0x2341
+uno3.pid.3=0x0243
+
+uno3.upload.tool=avrdude
+uno3.upload.protocol=arduino
+uno3.upload.maximum_size=32256
+uno3.upload.maximum_data_size=2048
+uno3.upload.speed=115200
+
+uno3.bootloader.tool=avrdude
+uno3.bootloader.low_fuses=0xFF
+uno3.bootloader.high_fuses=0xDE
+uno3.bootloader.extended_fuses=0x05
+uno3.bootloader.unlock_bits=0x3F
+uno3.bootloader.lock_bits=0x0F
+uno3.bootloader.file=optiboot/optiboot_atmega328.hex
+
+uno3.build.mcu=atmega328p
+uno3.build.f_cpu=16000000L
+uno3.build.board=AVR_UNO
+uno3.build.core=arduinoW_Framework
+uno3.build.variant=standard
